@@ -13,8 +13,8 @@ jobs:
 
     steps:
     - uses: Iamshankhadeep/setup-ffmpeg@v1.2
-      # with:
-      #   version: "4.4"
+      with:
+        version: "5.1"
       id: setup-ffmpeg
     - uses: shivammathur/setup-php@15c43e89cdef867065b0213be354c2841860869e
       with:
